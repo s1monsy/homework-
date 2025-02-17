@@ -1,0 +1,237 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.head h2 {
+  font-weight: 900;
+  margin-bottom: 40px;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.text {
+  margin-bottom: 48px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #424551;
+}
+
+.text-list .item {
+  margin-bottom: 4px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.text-list p {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.tutors-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #1e212c;
+}
+
+.name {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 16px;
+}
+
+.position {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787a80;
+}
+
+.achievements {
+  margin-bottom: 32px;
+}
+.achievements li {
+  margin-bottom: 4px;
+}
+
+.info {
+  line-height: 160%;
+  font-weight: 400;
+  color: #424551;
+}
+
+.list li {
+  background: url(../img/icon/Vector.png) 0 center no-repeat;
+  padding-left: 32px;
+}
+
+.rate {
+  background: url(../img/icon/Star.png) 0 center no-repeat;
+  padding-left: 20px;
+  line-height: 160%;
+  font-weight: 700;
+}
+
+.courses {
+  line-height: 160%;
+  font-weight: 700;
+  background: url(../img/icon/play.png) 0 center no-repeat;
+  padding-left: 20px;
+}
+
+.students {
+  line-height: 160%;
+  font-weight: 700;
+  padding-left: 20px;
+  background: url(../img/icon/people.png) 0 center no-repeat;
+}
+
+.list-space {
+  padding-left: 80px;
+  font-weight: 900;
+  line-height: 160%;
+  text-align: center;
+  max-width: 1230px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+ul ul {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+}
+
+/* ul a:hover + ul {
+  display: block;
+} */
+
+.aloxa {
+  background-color: rgb(2, 131, 88);
+  padding: 15px;
+  color: aliceblue;
+  line-height: 160%;
+}
+
+.aloxa p {
+  margin-bottom: 15px;
+}
+
+/* .aloxa p:first-child {
+  color: rgb(5, 195, 243);
+  text-transform: uppercase;
+} */
+
+/* .aloxa p:nth-child(even) {
+  color: rgb(5, 195, 243);
+  text-transform: uppercase;
+} */
+
+.aloxa p:not(:last-child) {
+  color: rgb(5, 195, 243);
+  text-transform: uppercase;
+  background-color: blueviolet;
+}
+
+.block {
+  background-color: blueviolet;
+  padding: 15px;
+  color: azure;
+}
+
+.block-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.block-text {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.block-link {
+  color: yellow;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.block-link:hover {
+  text-decoration: none;
+}
+
+.block *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* ====================Game===================== */
+
+
+/* ==================Practice================ */
+
+/* [href] {
+  color: rgb(43, 205, 226);
+} 
+[href="https://web.telegram.org/k/" ]
+{
+  color: aqua;
+}
+
+[href="https://www.youtube.com/"]
+{
+  color: rgb(11, 223, 29);
+}
+
+[href="https://www.hltv.org/"]
+{
+  color: blue;
+}
+
+[title]::before {
+  content: '(?)';
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  display: inline-block;
+}
+
+ [title~='просмотра'] {
+  color: brown;
+} 
+
+[title|='Приятного'] {
+  color: black;
+}
+
+.background {
+  background-color: chocolate;
+}
+
+ [class^='list'] {
+  border: 1px solid red;
+} 
+
+[class$='item'] {
+  border: 2px solid red;
+} 
+
+[class*='__item'] {
+  border: 4px solid green;
+} */
