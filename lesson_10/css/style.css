@@ -1,0 +1,302 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+[class*='__container'] {
+  max-width: 1230px;
+  margin: 0 auto;
+  color: #424551;
+}
+
+.who-we-are__container {
+  margin-bottom: 180px;
+}
+
+.course__container {
+  margin-bottom: 180px;
+}
+
+.tutorial__container {
+  margin-bottom: 180px;
+}
+
+.page__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #1e212c;
+  margin-bottom: 26px;
+}
+
+.page__image {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.page__image img {
+  max-width: 100%;
+}
+
+.page__main--bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 24px;
+}
+
+.page__text {
+  line-height: 160%;
+  margin-bottom: 55px;
+}
+
+.page__text p {
+  margin-bottom: 22px;
+}
+
+.page__blockquote {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 48px;
+
+  background: url('../image/icons/Rectangle\ 267.svg') 0 0 no-repeat;
+  padding-left: 58px;
+}
+
+.page__text ul {
+  margin-bottom: 24px;
+}
+
+.page__text li {
+  background: url('../image/icons/Vector.svg') 0 6px no-repeat;
+  margin-bottom: 4px;
+  padding-left: 32px;
+  /* min-height: 35px; */
+}
+/* ======================================================================= */
+
+.why-us__item {
+  background: url('../image/icons/Vector.svg') 0 0 no-repeat;
+  margin-bottom: 4px;
+  padding-left: 32px;
+  min-height: 35px;
+}
+
+.page__items li {
+  margin-bottom: 12px;
+}
+
+.primary__subtitle {
+  color: #1e212c;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.primary__main-title {
+  line-height: 130%;
+  font-weight: 900;
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.why-us {
+  margin-bottom: 22px;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 32px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button--transparent {
+  text-align: center;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  border: 2px solid #ff0800;
+  color: #ff0000;
+  background: transparent;
+}
+.primary--center {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tutorial__list {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+/* .tutorial__item--star {
+  background: url('../image/icons/Star.svg') 0 0 no-repeat;
+}
+
+.tutorial__item--like {
+  background: url('../image/icons/like.svg') 0 0 no-repeat;
+}
+
+.tutorial__item--comments {
+  background: url('../image/icons/comments.svg') 0 0 no-repeat;
+}
+
+.tutorial__item--layouts {
+  background: url('../image/icons/Layouts.svg') 0 0 no-repeat;
+} */
+
+.content-tutorial__title {
+  color: #1e212c;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+
+.content-tutorial__text {
+  line-height: 160%;
+}
+
+/* Немного практики с position */
+
+.about-course__title {
+  margin-bottom: 40px;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1e212c;
+}
+
+.about-course__description {
+  margin-bottom: 48px;
+  line-height: 160%;
+}
+
+.about-course__subtitle {
+  font-size: 28px;
+  color: #1e212c;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.about-course__list {
+  margin-bottom: 93px;
+}
+
+.about-course__item {
+  position: relative;
+  padding-left: 32px;
+}
+
+.about-course__item li {
+  line-height: 160%;
+  color: #424551;
+  padding-left: 32px;
+  position: relative;
+}
+
+.about-course__item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.about-course__item::before {
+  content: '';
+  background: url('../image/icons/Vector.svg') 0 0 / 100% no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.about-course__item:hover::before {
+  left: 4px;
+}
+
+/* ========================================================================= */
+
+.curator__info {
+  max-width: 600;
+  position: relative;
+}
+
+.primary__main-title-margin {
+  margin-bottom: 16px;
+}
+
+.primary__position--gray {
+  color: #787a80;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
+.curator__stats-item {
+  margin-bottom: 4px;
+  line-height: 160%;
+  color: #424551;
+  font-weight: 700;
+  padding-left: 24px;
+}
+
+.curator__stats-item:last-child {
+  margin-bottom: 32px;
+}
+
+.curator__stats-item--rating {
+  background: url('../image/icons/Star.svg') 0 5px no-repeat;
+}
+
+.curator__stats-item--courses {
+  background: url('../image/icons/course.svg') 0 5px no-repeat;
+}
+
+.curator__stats-item--students {
+  background: url('../image/icons/people.svg') 0 5px no-repeat;
+}
+
+.curator__text {
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.curator__image::before {
+  content: '';
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 130px;
+  left: -170px;
+  background: url('../image/icons/CIRCLES.svg') 0 0 no-repeat;
+  z-index: -1;
+}
+
+.curator__image::after {
+  content: '';
+  background-color: #ffcf2d;
+  z-index: -1;
+  border-radius: 4px;
+  width: 490px;
+  height: 580px;
+  top: 204px;
+  left: -19px;
+  position: absolute;
+}
