@@ -234,6 +234,14 @@ body {
 
 /* ========================================================================= */
 
+.course-curator__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 135px;
+  align-items: center;
+  margin-bottom: 180px;
+}
+
 .curator__info {
   max-width: 600;
   position: relative;
@@ -278,13 +286,17 @@ body {
   margin-bottom: 40px;
 }
 
+.curator__image {
+  position: relative;
+}
+
 .curator__image::before {
   content: '';
   width: 250px;
   height: 250px;
   position: absolute;
-  top: 130px;
-  left: -170px;
+  top: -64px;
+  left: -160px;
   background: url('../image/icons/CIRCLES.svg') 0 0 no-repeat;
   z-index: -1;
 }
@@ -296,7 +308,7 @@ body {
   border-radius: 4px;
   width: 490px;
   height: 580px;
-  top: 204px;
+  top: 20px;
   left: -19px;
   position: absolute;
 }
