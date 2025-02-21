@@ -2,12 +2,58 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
+
 [class*='__container'] {
   max-width: 1230px;
   margin: 0 auto;
   color: #424551;
 }
 
+/* ======================================================= */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 100;
+  background: linear-gradient(to right, #f5e8e4 35%, #faccbd 65%);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.header__logo {
+  margin-right: 60px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  position: relative;
+  transition: all 0.4s ease 0s;
+}
+
+.menu__item:hover {
+  color: red;
+}
+
+main {
+  margin-top: 100px;
+}
+/* ====================================================== */
 .who-we-are__container {
   margin-bottom: 180px;
 }
@@ -174,8 +220,6 @@ body {
   line-height: 160%;
 }
 
-/* Немного практики с position */
-
 .about-course__title {
   margin-bottom: 40px;
   font-size: 46px;
@@ -226,6 +270,7 @@ body {
   top: 2px;
   left: 0;
   transition: all 0.3s ease 0s;
+  display: inline-block;
 }
 
 .about-course__item:hover::before {
@@ -270,15 +315,45 @@ body {
 }
 
 .curator__stats-item--rating {
+  position: relative;
+  min-height: 16px;
+  transition: all 0.3s ease 0s;
+}
+
+.curator__stats-item--rating {
   background: url('../image/icons/Star.svg') 0 5px no-repeat;
+}
+
+.curator__stats-item--rating:hover {
+  left: 4px;
+}
+
+.curator__stats-item--courses {
+  position: relative;
+  min-height: 16px;
+  transition: all 0.3s ease 0s;
 }
 
 .curator__stats-item--courses {
   background: url('../image/icons/course.svg') 0 5px no-repeat;
 }
 
+.curator__stats-item--courses:hover {
+  left: 4px;
+}
+
+.curator__stats-item--students {
+  position: relative;
+  min-height: 16px;
+  transition: all 0.3s ease 0s;
+}
+
 .curator__stats-item--students {
   background: url('../image/icons/people.svg') 0 5px no-repeat;
+}
+
+.curator__stats-item--students:hover {
+  left: 4px;
 }
 
 .curator__text {

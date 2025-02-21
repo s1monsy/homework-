@@ -9,9 +9,26 @@
     <title>Lesson 10</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <div class="wrapper">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__wrapper">
+            <div class="header__logo">
+              <img src="/image/icons/logo.svg" alt="Logo" />
+            </div>
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#">About Us</a></li>
+                <li class="menu__item"><a href="#">Courses</a></li>
+                <li class="menu__item"><a href="#">Events</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+                <li class="menu__item"><a href="#">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
         <section class="page">
           <div class="page__container">
             <h1 class="page__title">
@@ -98,41 +115,44 @@
             <div class="who-we-are__teacher-image">
               <img src="image/desing/image.png" alt="teacher" />
             </div>
-            <div class="who-we-are__primary primary">
-              <h3 class="primary__subtitle">Who we are</h3>
-              <h2 class="primary__main-title">Why createx?</h2>
-            </div>
-            <div class="who-we-are__why-us why-us">
-              <ul class="why-us__list">
-                <li class="why-us__item">
-                  A fermentum in morbi pretium aliquam adipiscing donec tempus.
-                </li>
-                <li class="why-us__item">
-                  Vulputate placerat amet pulvinar lorem nisl.
-                </li>
-                <li class="why-us__item">
-                  Consequat feugiat habitant gravida quisque elit bibendum id
-                  adipiscing sed.
-                </li>
-                <li class="why-us__item">
-                  Etiam duis lobortis in fames ultrices commodo nibh.
-                </li>
-                <li class="why-us__item">
-                  Tincidunt sagittis neque sem ac eget.
-                </li>
-                <li class="why-us__item">
-                  Ultricies amet justo et eget quisque purus vulputate dapibus
-                  tortor.
-                </li>
-              </ul>
-            </div>
+            <div class="who-we-are__content">
+              <div class="who-we-are__primary primary">
+                <h3 class="primary__subtitle">Who we are</h3>
+                <h2 class="primary__main-title">Why createx?</h2>
+              </div>
+              <div class="who-we-are__why-us why-us">
+                <ul class="why-us__list">
+                  <li class="why-us__item">
+                    A fermentum in morbi pretium aliquam adipiscing donec
+                    tempus.
+                  </li>
+                  <li class="why-us__item">
+                    Vulputate placerat amet pulvinar lorem nisl.
+                  </li>
+                  <li class="why-us__item">
+                    Consequat feugiat habitant gravida quisque elit bibendum id
+                    adipiscing sed.
+                  </li>
+                  <li class="why-us__item">
+                    Etiam duis lobortis in fames ultrices commodo nibh.
+                  </li>
+                  <li class="why-us__item">
+                    Tincidunt sagittis neque sem ac eget.
+                  </li>
+                  <li class="why-us__item">
+                    Ultricies amet justo et eget quisque purus vulputate dapibus
+                    tortor.
+                  </li>
+                </ul>
+              </div>
 
-            <a href="" class="button">More about us</a>
+              <a href="" class="button">More about us</a>
+            </div>
           </div>
         </section>
         <section class="course">
           <div class="course__container">
-            <div class="course__primary primary--center">
+            <div class="course__primary primary">
               <h3 class="primary__subtitle">Ready to learn?</h3>
               <h2 class="primary__main-title">Featured Courses</h2>
             </div>
@@ -207,8 +227,8 @@
         <section class="tutorial">
           <div class="tutorial__container">
             <div class="tutorial__primary primary--center">
-              <h3 class="primary__subtitle">Ready to learn?</h3>
-              <h2 class="primary__main-title">Featured Courses</h2>
+              <h3 class="primary__subtitle">Our benefits</h3>
+              <h2 class="primary__main-title">That’s how we do it</h2>
             </div>
 
             <ul class="tutorial__list">
@@ -330,8 +350,8 @@
             </div>
           </div>
         </section>
-      </div>
-    </main>
-    <footer></footer>
+      </main>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>

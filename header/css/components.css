@@ -1,0 +1,48 @@
+/* button */
+
+.button {
+  border-radius: 8px;
+  border: 2px solid #9333ea;
+  background: #9333ea;
+  padding-inline: 40px;
+  padding-block: 16px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background-color: #682ca0;
+}
+
+.button--mini {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-block: 12px;
+  padding-inline: 28px;
+  border: none;
+}
+
+.button--transparent:hover {
+  background-color: #682ca0;
+}
+
+.button--transparent {
+  background-color: transparent;
+}
+
+.button--white-border {
+  border: 2px solid #fff;
+  background-color: transparent;
+  padding-block: 14px;
+}
+
+.button--white-border:hover {
+  background-color: #682ca0;
+  border: 2px solid #682ca0;
+}
