@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #424551;
+}
+
+[class*='__container'] {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
+.page {
+}
+.page__main {
+}
+
+/* ====h======eader========= */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 1000;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.header__logo--link {
+}
+.header__menu {
+  flex-grow: 1;
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 10px;
+}
+.menu__item {
+}
+.menu__link {
+  font-weight: 700;
+  line-height: 1.6;
+  transition: all 0.4s ease 0s;
+}
+.menu__link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.actions-header {
+}
+.actions-header__button {
+}
+.button {
+}
+.actions-header__authorisation {
+  font-weight: 700;
+  background: url('../img/icons/Profile.svg') left no-repeat;
+  padding-left: 24px;
+  line-height: 1.25;
+  transition: all 0.4s ease 0s;
+}
+
+.actions-header__authorisation span:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/* ======================== */
+
+/* =======main========== */
+
+.main-block {
+  padding: 200px 0 80px 0;
+  background: linear-gradient(
+    55.95deg,
+    rgba(255, 63, 58, 0.2) 0%,
+    rgba(247, 94, 5, 0.2) 100%
+  );
+}
+.main-block__container {
+}
+.main-block__body {
+  margin-bottom: 190px;
+}
+.main-block__advantages {
+}
+.main-block__decor {
+}
+
+.body-main {
+  display: flex;
+}
+
+.body-main__content {
+  padding-right: 20px;
+  flex: 0 1 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.body-main__play {
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+.body-main__title {
+}
+.body-main__actions {
+}
+
+.body-main__media {
+  flex: 0 1 50%;
+}
+.body-main__image {
+  max-width: 107.8%;
+  transform: translate(7.8%, 0%);
+}
+
+.advantages-main {
+}
+.advantages-main__item {
+}
+
+.item-advantages {
+}
+.item-advantages__value {
+}
+.item-advantages__text {
+}
+
+.decor-main {
+}
+.decor-main__item {
+}
+.decor-main__item--1 {
+}
+.decor-main__item--2 {
+}
+.decor-main__item--3 {
+}
+.decor-main__item--4 {
+}
+.decor-main__item--5 {
+}
+.decor-main__item--6 {
+}
+
+/* =========================== */
