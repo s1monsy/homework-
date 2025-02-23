@@ -28,6 +28,7 @@
   padding: 15px 38px;
   position: relative;
   transition: all 0.3s ease 0s;
+  display: inline-block;
 }
 .button--transperent:hover {
   color: #fff;

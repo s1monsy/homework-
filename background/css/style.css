@@ -1,0 +1,48 @@
+[class*='__container'] {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+}
+.main__container {
+}
+
+.main__background {
+  height: 1500px;
+  padding: 15px;
+  /*Універсальний запис властивості(тіпа в ряд) */
+  background: red url('../img/56c1f86fe7f37554d78cd8b8f38621a7.jpg') 0 0 / 100%
+    no-repeat fixed(або scroll);
+
+  /* background-color: red;  визначає колір елементу */
+  /* background-image: url('../img/56c1f86fe7f37554d78cd8b8f38621a7.jpg'); зображення не вставновлює розміри об'єкта  */
+  /*backgrouаnd-image: linear-gradient()  градієнт */
+  /* background-repeat: no-repeat;(repeat за замовченням) визначає повторення зображення
+                     no-reapeat; не повторюється
+                     repeat-x; повторюється по горизонталі
+                     repeat-y; повторюється по вертикалі  
+   */
+  /* background-position: 0 0 ; зміщення зображення відносно елементу
+                      center
+                      top bottom
+                      left  right
+                      50% 50% центрує зображення;    
+   */
+
+  /* background-attachment:scroll(за замовченням) ; щоб фонове зображення не рухалося при прокручуванні сторінки
+                        або fixed; фонове зображення зафіксоване
+                                  */
+
+  /* background-size: auto auto;  маштабує фонове зображення згідно з заданами розмірами
+                   contain маштабує фонове зображення так, щоб воно вмістилося в елемент
+                    cover маштабує фонове зображення так, щоб воно покривало весь елемент  */
+
+  /* Вставнолю декілька фонових зображень: */
+
+  background: url('../img/56c1f86fe7f37554d78cd8b8f38621a7.jpg') 0 0 / 100%   перше зображення буде відображатися поверх другого
+      no-repeat fixed,
+    url('../img/56c1f86fe7f37554d78cd8b8f38621a7.jpg') 0 0 / 100% no-repeat
+      fixed;
+}
